@@ -1,0 +1,37 @@
+@import "vars";
+.header {
+  &__inner {
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__logo {
+    margin: 27px 0;
+    border: 1px solid red;
+    width: 200px;
+  }
+  &__link {
+    padding: 15px 30px;
+    background-color: $blue-color;
+    text-decoration: none;
+    color: $light-color;
+    border-radius: 6px;
+    transition: all 0.3s;
+    &:hover {
+      background-color: rgb(31, 84, 184);
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .menu {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .menu {
+    display: none;
+  }
+}
