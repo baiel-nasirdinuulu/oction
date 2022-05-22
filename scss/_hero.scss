@@ -1,0 +1,69 @@
+@import "vars";
+@import "btn";
+.hero {
+  &__inner {
+    display: flex;
+    gap: 50px;
+  }
+  &__box {
+    width: 531px;
+    margin-top: 179px;
+    min-height: 400px;
+  }
+  &__title {
+    font-family: $main-font;
+    color: $blue-color;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  &__info {
+    margin-top: 5px;
+
+    font-family: $main-font;
+    color: $main-color;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60.55px;
+    line-height: 130%;
+    margin-bottom: 20px;
+    &-secondary {
+      font-family: $main-font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      color: $main-color;
+      margin-bottom: 30px;
+    }
+  }
+  &__link {
+    background-color: $blue-color;
+    color: $light-color;
+    margin-right: 50px;
+
+    transition: all 0.3s;
+    &:hover {
+      background-color: rgb(59, 88, 88);
+      color: $light-color;
+    }
+  }
+  &__link2 {
+    transition: all 0.3s;
+    &:hover {
+      background-color: rgb(59, 88, 88);
+      color: $light-color;
+    }
+  }
+  &__img {
+    margin-top: 100px;
+    width: 550px;
+  }
+}
+
+.strong {
+  color: $blue-color;
+}

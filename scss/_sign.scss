@@ -1,0 +1,66 @@
+.sign {
+  background-color: rgba(232, 236, 255, 0.3);
+
+  &__inner {
+    min-height: 338px;
+    text-align: center;
+    padding-top: 75px;
+  }
+  &__title {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31.25px;
+    line-height: 37px;
+    /* identical to box height */
+
+    color: $blue-color;
+    margin-bottom: 15px;
+  }
+  &__p {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+
+    color: $main-color;
+  }
+  &__btn {
+    border: 1px solid $blue-color;
+    display: inline-block;
+    width: 487px;
+    height: 82px;
+    border-radius: 10px;
+    position: relative;
+    &::before {
+      margin-left: 30px;
+      position: absolute;
+      width: 60px;
+      height: 80px;
+      background-image: url("../img/em.svg");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      display: block;
+      content: "";
+    }
+  }
+  &__input {
+    padding: 30px;
+    border: none;
+    margin-left: 90px;
+    background-color: rgba(232, 236, 255, 0.3);
+  }
+  &__link {
+    text-decoration: none;
+    padding: 15px 29px;
+    background-color: $blue-color;
+    border-radius: 10px;
+    color: $light-color;
+    float: right;
+    margin-right: 25px;
+    margin-top: 15px;
+  }
+}

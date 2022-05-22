@@ -1,0 +1,45 @@
+@import "vars";
+
+.customers {
+  &__title {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48.44px;
+    line-height: 150%;
+    /* identical to box height, or 73px */
+
+    color: $main-color;
+    margin-top: 150px;
+    margin-bottom: 60px;
+  }
+  &__inner {
+    display: flex;
+
+    gap: 67px;
+  }
+  &__blog {
+    width: 420px;
+    min-height: 283px;
+
+    text-align: center;
+    padding-top: 30px;
+  }
+}
+.blog {
+  &__info {
+    margin-bottom: 45px;
+
+    width: 255px;
+    margin: auto;
+
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    /* or 30px */
+
+    color: $main-color;
+  }
+}

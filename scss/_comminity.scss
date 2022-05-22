@@ -1,0 +1,64 @@
+@import "vars";
+@import "btn";
+
+.comminity {
+  padding-top: 200px;
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 140px;
+  }
+  &__video {
+    width: 486px;
+    height: 486px;
+    background-image: url("../img/back.png");
+    display: flex;
+    justify-content: center;
+  }
+  &__link {
+    display: flex;
+
+    align-items: center;
+  }
+  &__box {
+    width: 496px;
+  }
+  &__title {
+    font-family: $main-font;
+    color: $blue-color;
+    margin-top: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+  &__info {
+    font-family: $main-font;
+    color: $main-color;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 49px;
+    line-height: 130%;
+    margin-bottom: 20px;
+    &-secondary {
+      color: $main-color;
+      font-family: $main-font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 150%;
+      margin-bottom: 50px;
+    }
+  }
+  &__link1 {
+    background-color: $blue-color;
+    color: $light-color;
+    transition: all 0.4s;
+    &:hover {
+      background-color: rgb(48, 61, 120);
+    }
+  }
+}

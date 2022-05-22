@@ -1,0 +1,37 @@
+@import "vars";
+.footer {
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    min-height: 329px;
+  }
+  &__menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  &__title {
+    margin-bottom: 15px;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 150%;
+    /* identical to box height, or 38px */
+
+    color: $main-color;
+  }
+  &__link {
+    margin-bottom: 15px;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    /* identical to box height, or 30px */
+
+    color: $main-color;
+    text-decoration: none;
+  }
+}

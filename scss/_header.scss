@@ -1,14 +1,13 @@
 @import "vars";
 .header {
   &__inner {
-    border: 1px solid red;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
   &__logo {
     margin: 27px 0;
-    border: 1px solid red;
+
     width: 200px;
   }
   &__link {
@@ -23,15 +22,37 @@
     }
   }
 }
+.footer-second {
+  background-color: $blue-color;
 
-@media screen and (max-width: 500px) {
-  .menu {
-    display: none;
+  &__p {
+    padding: 45px 0;
+    font-family: $main-font;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    /* identical to box height, or 30px */
+
+    color: $light-color;
+    display: inline-block;
   }
-}
-
-@media screen and (min-width: 500px) {
-  .menu {
-    display: none;
+  &__contact {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    border-radius: 10px;
+    padding: 15px 31px;
+    background-color: $light-color;
+    color: $blue-color;
+    float: right;
+    margin-top: 45px;
+    margin-right: 230px;
+    transition: 0.4s;
+    &:hover {
+      background-color: rgb(10, 10, 9);
+    }
   }
 }
